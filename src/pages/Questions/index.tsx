@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
@@ -11,7 +11,6 @@ import {
   ChevronRight,
   Trash2,
   Plus,
-  Clock,
   Upload,
   Bold,
   Italic,
@@ -24,7 +23,6 @@ import {
   Image,
   Sparkles,
   AlertCircle,
-  Check,
   ChevronDown
 } from 'lucide-react';
 
